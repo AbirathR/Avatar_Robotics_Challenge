@@ -38,3 +38,7 @@ blend:
 keypoints: exactly three 2D points [P0, P1, P2]
 samples: number of interpolated points
 start_pose: same as polygon
+
+
+# Description of my approach
+
