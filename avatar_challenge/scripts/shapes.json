@@ -1,0 +1,63 @@
+{
+  "shapes": [
+    {
+      "vertices": [[0.3,0], [0.3,0.200], [0.500,0.200], [0.500,0], [0.3,0]],
+      "start_pose": {
+        "position": [0.050, 0, 0.150],
+        "orientation": [3.14, 0, 0]    
+      }
+    },
+    {
+      "vertices": [[0.3,0], [0.350,0.0866], [0.350,0.0866]],
+      "start_pose": {
+        "position": [0.200, -0.100, 0.150],
+        "orientation": [3.14, 0.2, 0]     
+      }
+    },
+    {
+      "vertices": [[0.3,0], [0.500,0], [0.5,0.2], [0.3,0.2]],
+      "start_pose": {
+        "position": [-0.100, 0.100, 0.150],
+        "orientation": [3.14, 0, 0]     
+      }
+    },
+    {
+      "type": "arc",
+      "arc": {
+        "center": [0.05, 0.05],
+        "radius": 0.1,
+        "start_angle": 0.0,
+        "end_angle": 1.5708,
+        "samples": 50
+      },
+      "start_pose": {
+        "position": [0.2, 0.0, 0.15],
+        "orientation": [3.14, 0.7854, 0]
+      }
+    },
+    {
+      "type": "bspline",
+      "bspline": {
+        "control_points": [[0.3,0], [0.3,0.100], [0.400,0.100], [0.400,0], [0.3,0]], 
+        "degree": 3,
+        "samples": 100,
+        "closed": true
+      },
+      "start_pose": {
+        "position": [-0.100, 0.100, 0.150],
+        "orientation": [0.0, 0.0, -0.5236]
+      }
+    },
+    {
+      "type": "blend",
+      "blend": {
+        "keypoints": [[0.1, -0.15], [0.3, 0.0], [0.1, 0.15]],
+        "samples": 50
+      },
+      "start_pose": {
+        "position": [0.3, -0.3, 0.150],
+        "orientation": [3.14, 0.0, 0.000]
+      }
+    }
+  ]
+}
